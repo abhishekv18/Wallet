@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  20% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.animate-fade-in-out {
+  animation: fadeInOut 2s ease;
+}
+
+
+/* index.css or App.css */
+/* Custom dark-themed scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f2937; /* Tailwind's gray-800 */
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4b5563; /* Tailwind's gray-600 */
+  border-radius: 6px;
+  border: 2px solid #1f2937; /* Same as track for a smooth border */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #6b7280; /* Tailwind's gray-500 */
+}
