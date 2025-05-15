@@ -1,4 +1,4 @@
-import { FaHeart } from 'react-icons/fa';
+
 
 export default function Footer() {
   return (
@@ -7,7 +7,7 @@ export default function Footer() {
         <p className="flex items-center gap-2">
           Designed & Developed by 
           <span className="font-bold text-white hover:text-yellow-400 transition">Abhishek</span>
-          <FaHeart className="text-red-500 animate-pulse" />
+          <p className="text-red-500 animate-pulse">❤️</p>
         </p>
 
         <p className="mt-2 md:mt-0">&copy; {new Date().getFullYear()} All rights reserved</p>
