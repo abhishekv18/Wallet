@@ -4,7 +4,7 @@ import Wallet from './components/Wallet'
 import { generateMnemonic } from 'bip39';
 import { N } from 'ethers';
 import Navbar from './components/Navbar';
-import Footer from './components/footer';
+import Footer from './components/Footer';
 
 function App() {
   const [mnemonic, setMnemonic] = useState("")
